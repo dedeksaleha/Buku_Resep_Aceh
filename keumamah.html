@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Buku Resep Aceh</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f4ed;
+            color: #333;
+        }
+
+        header {
+            background-color: #7b2d26;
+            color: white;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #ead8c0;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+            color: #7b2d26;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #7b2d26;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            background-color: #5e211c;
+        }
+
+        .resep {
+            padding: 50px 60px;
+        }
+
+        .resep h2 {
+            text-align: center;
+            color: #7b2d26;
+            margin-bottom: 30px;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #7b2d26;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #7b2d26;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Buku Resep Aceh</div>
+
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#resep">Resep</a>
+            <a href="#tentang">Tentang</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="beranda">
+        <h1>Selamat Datang di Buku Resep Aceh</h1>
+
+        <p>
+            Temukan berbagai resep makanan tradisional khas Aceh
+            dan lestarikan cita rasa kuliner Nusantara.
+        </p>
+
+        <a href="#resep" class="btn">Lihat Resep</a>
+    </section>
+
+    <!-- Daftar Resep -->
+    <section class="resep" id="resep">
+        <h2>Resep Masakan Aceh</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Kuah Pliek U</h3>
+
+                <p>
+                    Masakan khas Aceh yang menggunakan berbagai macam
+                    sayuran dengan bumbu dan kuah yang kaya rasa.
+                </p>
+
+                <a href="#" class="btn">Lihat Resep</a>
+            </div>
+
+            <div class="card">
+                <h3>Ayam Tangkap</h3>
+
+                <p>
+                    Hidangan khas Aceh berupa ayam berbumbu rempah
+                    yang disajikan dengan daun pandan dan daun kari.
+                </p>
+
+                <a href="#" class="btn">Lihat Resep</a>
+            </div>
+
+            <div class="card">
+                <h3>Keumamah</h3>
+
+                <p>
+                    Makanan tradisional Aceh berbahan dasar ikan tongkol
+                    yang diolah dengan berbagai rempah khas Aceh.
+                </p>
+
+                <a href="#" class="btn">Lihat Resep</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Tentang -->
+    <section class="resep" id="tentang">
+        <h2>Tentang Buku Resep Aceh</h2>
+
+        <p style="text-align: center; line-height: 1.8;">
+            Buku Resep Aceh merupakan website yang dibuat untuk
+            memperkenalkan dan mendokumentasikan berbagai resep
+            makanan tradisional Aceh agar lebih mudah dikenal,
+            khususnya oleh generasi muda.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Buku Resep Aceh. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
